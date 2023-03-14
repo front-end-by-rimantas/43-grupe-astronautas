@@ -15,7 +15,25 @@
         }
 
         header {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: space-between;
             background-color: pink;
+        }
+
+        img {}
+
+        nav {
+            background-color: yellow;
+        }
+
+        a {
+            margin-right: 40px;
+        }
+
+        a:last-child {
+            margin-right: 0;
         }
 
         main {
@@ -29,7 +47,15 @@
 </head>
 
 <body>
-    <header>HEADER</header>
+    <header>
+        <img src="./logo.png" alt="Logo">
+        <nav>
+            <a href="#">A</a>
+            <a href="#">B</a>
+            <a href="#">C</a>
+            <a href="#">D</a>
+        </nav>
+    </header>
     <main>MAIN</main>
     <footer>FOOTER</footer>
 </body>
