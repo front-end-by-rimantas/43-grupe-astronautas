@@ -64,11 +64,30 @@ p {
 }
 
 div > a {
-    display: inline-block;
-    padding: 20px;
+    float: left;
+    margin: 0.5em;
+    margin-left: 0;
+    padding: 1em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
     text-decoration: none;
-    background-color: rgb(102, 44, 140);
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1em;
+    font-weight: bold;
+    /* background-color: hsl(276, 53%, 36%); */
+    /* background-color: rgb(102, 44, 140); */
+    /* 102 (10) -> 66 (16) */
+    /* 44 (10) -> 2c (16) */
+    /* 140 (10) -> 8c (16) */
+    background-color: #662b8c;
     color: rgb(255, 255, 255);
+    border-radius: 1.6em;
+    border: 0.1em solid #662b8c;
+}
+div > a:hover {
+    background-color: #ffffff;
+    color: #662b8c;
 }
 
 main > img {
